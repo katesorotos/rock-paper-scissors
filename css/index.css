@@ -1,5 +1,51 @@
-#wrapper {
-  width: 90%;
-  max-width: 1024px;
-  margin: 0 auto;
+.jumbotron {
+  background-image: url("https://media.giphy.com/media/39mEqC3AkHm6c/giphy.gif");
+  height: 270px;
+}
+.jumbotron h1 {
+  color: white;
+  text-decoration: underline;
+  font-family: "Anton"; cursive;
+  text-shadow: 0.5px 0.5px white;
+}
+#move h2 {
+  font-family: "Anton"; cursive;
+  background-color: black;
+  color: white;
+}
+#result h2 {
+  font-family: "Anton"; cursive;
+  background-color: black;
+  color: white;
+}
+#move p {
+  font-size: 20px;
+  font-family: "Anton"; cursive;
+  font-weight: bold;
+  text-align: left;
+}
+#result h3 {
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: "Anton"; cursive;
+  font-weight: bold;
+  text-align: left;
+}
+#result p {
+  font-size: 20px;
+  font-family: "Anton"; cursive;
+  font-weight: bold;
+  text-align: left;
+}
+#reset {
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 40px;
+  color: white;
+  background-color: #DB3069;
+  border-color: none;
+}
+#reset:hover {
+  background-color: #09BC8A;
 }
