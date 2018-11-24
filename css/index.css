@@ -8,6 +8,9 @@
   font-family: "Anton"; cursive;
   text-shadow: 0.5px 0.5px white;
 }
+.game_button button {
+  margin: 10px;
+}
 #move h2 {
   font-family: "Anton"; cursive;
   background-color: black;
@@ -24,9 +27,16 @@
   font-weight: bold;
   text-align: left;
 }
-#result h3 {
+#score {
   font-size: 30px;
   text-decoration: underline;
+  font-family: "Anton"; cursive;
+  font-weight: bold;
+  text-align: left;
+}
+#verdict  {
+  color: #DB3069;
+  font-size: 30px;
   font-family: "Anton"; cursive;
   font-weight: bold;
   text-align: left;
@@ -48,4 +58,9 @@
 }
 #reset:hover {
   background-color: #09BC8A;
+}
+@media screen and (max-width: 550px) {
+ .jumbotron {
+   height: 550px;
+ }
 }
