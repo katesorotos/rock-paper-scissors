@@ -4,12 +4,15 @@
 }
 .jumbotron h1 {
   color: white;
+  font-size: 100px;
   text-decoration: underline;
   font-family: "Anton"; cursive;
   text-shadow: 0.5px 0.5px white;
 }
 .game_button button {
-  margin: 10px;
+  margin-bottom: 20px;
+  border-radius:5px;
+  /* margin: 10px; */
 }
 #move h2 {
   font-family: "Anton"; cursive;
@@ -63,4 +66,9 @@
  .jumbotron {
    height: 550px;
  }
+}
+@media screen and (max-width: 1000px) {
+  .jumbotron h1 {
+    font-size: 80px;
+  }
 }
