@@ -10,9 +10,29 @@
   text-shadow: 0.5px 0.5px white;
 }
 .game_button button {
-  margin-bottom: 20px;
-  border-radius:5px;
-  /* margin: 10px; */
+  margin: 10px;
+  border: 0;
+  font-size: 20px;
+  position: relative;
+  animation-name: shake;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  cursor: pointer;
+}
+button:hover {
+  animation-name: shakeAnim;
+}
+
+@keyframes shakeAnim {
+  0% {left: 0}
+  1% {left: -2px}
+  2% {left: 3px}
+  3% {left: -5px}
+  4% {left: 5px}
+  5% {left: -3px}
+  6% {left: 2px}
+  7% {left: 0}
 }
 #move h2 {
   font-family: "Anton"; cursive;
@@ -58,6 +78,7 @@
   color: white;
   background-color: #DB3069;
   border-color: none;
+  animation: none;
 }
 #reset:hover {
   background-color: #09BC8A;
